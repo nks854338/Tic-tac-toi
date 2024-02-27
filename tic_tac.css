@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #284474;
+    text-align: center;
+    opacity: 90%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 7vmin;
+    align-items: center;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 10px gray;
+}
+
+.container {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 2.5vmin;
+    row-gap: 2.5vmin;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+
+}
+
+.hide {
+    display: none;
+}
+
+.msg_container {
+    margin: 5vmin;
+    height: 100vh;
+}
+
+.msg {
+    font-size: 5vmin;
+    color: white;
+}
+
+.won {
+    margin: 5vmin;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-size: 4vmin;
+    background-color: white;
+    color: #284474;
+    /* display: none; */
+}
+
+.btn {
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 9vmin;
+    color: #ffffff;
+    background-color: #284474;
+    border: none;
+}
+
+img {
+    height: 50vmin;
+}
+
+.restart {
+    margin: 5vmin;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-size: 4vmin;
+    background-color: white;
+    color: cornflowerblue;
+}
+
+.reset {
+    padding: 2vmin 5vmin;
+    background-color: white;
+    color: cornflowerblue;
+    border-radius: 10px;
+    margin-bottom: 5vmin;
+}
+
+
+.box {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.btw {
+    border-radius: 10%;
+}
+
+.bl {
+    border-bottom-right-radius: 10%
+}
+
+.bt {
+    border-bottom-left-radius: 10%;
+}
+
+.bb {
+    border-top-right-radius: 10%;
+}
+
+.btl {
+    border-top-left-radius: 10%;
+}
